@@ -17,4 +17,4 @@ To run:
 - Download necessary installations using npm install
 - Run using node app.js
 
-![Alt text](C:\Users\Aden\CSE264\finalProg\finalProg\images\crossyroadsrunning.png)
+![Project Screenshot](../images/crossyroadsrunning.png)
