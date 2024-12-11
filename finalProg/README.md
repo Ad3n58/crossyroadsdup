@@ -11,3 +11,10 @@ Objective: The objective / goal of the game is to make it across the screen (ver
            There is also a button "stop" to just stop the audio if you're bored of the song too.
 
 Thank you for giving us the opportunity to showcase our game and I hope you liked it as much as we did!
+
+To run:
+
+- Download necessary installations using npm install
+- Run using node app.js
+
+![Alt text](C:\Users\Aden\CSE264\finalProg\finalProg\images\crossyroadsrunning.png)
