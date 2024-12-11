@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crossy Roads</title>
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1><b>Crossy Roads</b></h1>
+  </header>
+  <div id="round-info">
+    <span>Round #<span id="round-number">1</span></span> <!-- The use of span: to wrap sections of text for styling purposes or to add attributes to a section of text without creating a new line of content -->
+    <button onclick="playAudio()">Play 🎵</button>
+    <button onclick="stopAudio()">Stop</button>
+  </div>
+  <div id="back">
+    <canvas id="layer1"></canvas>
+    <canvas id="street3"></canvas>
+    <canvas id="street2"></canvas>
+    <canvas id="streets"></canvas>
+    <img id="gif" width="20" height="20" src="https://media4.giphy.com/media/HH2bb3Pjq5IB2/200w.gif?cid=6c09b952g7g2ctjqe7mh1m9iolah7689c6wcrfdq7ojd64uk&ep=v1_gifs_search&rid=200w.gif&ct=s">
+  </div>
+  <audio id="audio" src="../img/jellyFishJam.mp3" autoplay></audio>
+
+  <script src="js/vendor/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="js/vendor/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script> <!-- this is for confetti -->
+</body>
+</html>

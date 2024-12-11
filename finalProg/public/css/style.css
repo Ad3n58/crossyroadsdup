@@ -1,0 +1,97 @@
+body {
+  background-image: url("../img/pic.jpeg");
+}
+
+#layer1 {
+  margin: auto;
+  background-color: #67B667;
+  border: 2px solid black;
+  margin-left: 30px;
+  width: 1380px;
+  margin-top: -10px;
+  height: 650px; 
+  position: absolute; 
+  left: 0; 
+  z-index: 0;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Honk";
+}
+
+button{
+  position: relative; /* this is needed to make the buttons centered */
+  left: 640px;
+  font-size: 25px;
+}
+
+.upBtn{
+  position: fixed; /* i couldn't figure out how to get this button above the other 3 without using fixed but bc it's fixed, when you scroll it stays in one spot 💀 */
+  left: 630px;
+}
+
+#streets{
+  width: 1376px;
+  height: 100px;
+  background-color: gray;
+  z-index: 1;
+  position: relative;
+  right: -32px;
+  top: 10px;
+}
+
+#street2{
+  margin-top: 50px;
+  margin-bottom: 75px;
+  width: 1376px;
+  height: 200px;
+  background-color: gray;
+  position:relative;
+  z-index: 1;
+  right: -32px;
+}
+#street3{
+  margin-top: 40px;
+  width: 1376px;
+  height: 100px;
+  background-color: gray;
+  position:relative;
+  z-index: 1;
+  right: -32px;
+}
+
+#back {
+  position: relative;
+
+}
+
+canvas, #scream {
+  position: absolute;
+}
+
+#gif {
+  z-index: 2; /* Ensuring that image is above all canvases */
+  width: 65px;
+  height: 65px;
+  left: 750px;
+  margin-top: 100px;
+}
+
+button {
+  margin-bottom: 15px;;
+  font-size: 20px;
+  left: 1157px;
+  font-family: "Honk";
+  margin-top: -10px;
+}
+
+#round-info{
+  position: relative;
+  font-family: 'Honk';
+  font-size: 20px;
+  left: 32px;
+  margin-top: -10px;
+}
