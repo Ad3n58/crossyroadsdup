@@ -17,4 +17,4 @@ To run:
 - Download necessary installations using npm install
 - Run using node app.js
 
-![Project Screenshot](../images/crossyroadsrunning.png)
+![Project Screenshot](..\images\crossyroadsrunning.png)
